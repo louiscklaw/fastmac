@@ -16,6 +16,27 @@ jobs:
           key_file: id_ecdsa
       - uses: actions/checkout@v2
       - run: source script-mac.sh
+      
+      - name: Setup tmate session
+        timeout-minutes: 720
+        uses: mxschmitt/action-tmate@v2
+      
+      - name: Setup tmate session
+        timeout-minutes: 720
+        uses: mxschmitt/action-tmate@v2
+      
+      - name: Setup tmate session
+        timeout-minutes: 720
+        uses: mxschmitt/action-tmate@v2
+
+      - name: Setup tmate session
+        timeout-minutes: 720
+        uses: mxschmitt/action-tmate@v2
+      
+      - name: Setup tmate session
+        timeout-minutes: 720
+        uses: mxschmitt/action-tmate@v2
+      
       - name: Setup tmate session
         timeout-minutes: 720
         uses: mxschmitt/action-tmate@v2
